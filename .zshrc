@@ -21,6 +21,7 @@ export DISPLAY=":0.0"
 plugins=(git z)
 
 source $ZSH/oh-my-zsh.sh
+source $HOME/.laptop/scripts/update-brew-packages.sh
 
 alias wip='git add -A && git commit -m "WIP"'
 alias rebase='git checkout master && git pull --rebase && git checkout - && git rebase -i master'
@@ -29,4 +30,5 @@ branch () { git checkout master && git pull --rebase && git checkout -b $1 & }
 alias show-hidden-files="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles NO”
 
-$HOME/.laptop/scripts/update-brew-packages.sh
+brew list > $HOME/.laptop/brew-packages.txt
+brew cask list > $HOME/.laptop/brew-cask-packages.txt

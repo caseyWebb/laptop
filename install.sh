@@ -17,10 +17,4 @@ if [ ! -d "$HOME/.laptop" ]; then
 fi
 
 chmod +x $HOME/.laptop/scripts/*
-
-$HOME/.laptop/scripts/install-keybase.sh
-$HOME/.laptop/scripts/install-node.sh
-$HOME/.laptop/scripts/install-zsh.sh
-$HOME/.laptop/scripts/install-homebrew-packages.sh
-
-$HOME/.laptop/scripts/setup-ssh.sh
+for s in $HOME/.laptop/scripts/*.sh; do source $s; done
