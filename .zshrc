@@ -29,4 +29,4 @@ branch () { git checkout master && git pull --rebase && git checkout -b $1 & }
 alias show-hidden-files="defaults write com.apple.finder AppleShowAllFiles YES"
 alias hide-hidden-files="defaults write com.apple.finder AppleShowAllFiles NO”
 
-~/.laptop/scripts/upgrade-brew-packages.sh
+$HOME/.laptop/scripts/update-brew-packages.sh
