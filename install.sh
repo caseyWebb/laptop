@@ -13,5 +13,5 @@ fi
 brew install git
 
 if [ ! -d "$HOME/.laptop" ]; then
-  git clone https://github.com/caseyWebb/laptop.git
+  git clone https://github.com/caseyWebb/laptop.git $HOME/.laptop
 fi
