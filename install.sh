@@ -25,4 +25,12 @@ fi
 chmod +x ~/.laptop/scripts/*
 for s in ~/.laptop/scripts/*.sh; do source $s; done
 
+if [ ! -d /Applications/Google\ Chrome.app ]; then
+  open https://chrome.google.com
+fi
+
+if [ ! -d /Applications/Spectacle.app ]; then
+  open https://spectacleapp.com
+fi
+
 zsh

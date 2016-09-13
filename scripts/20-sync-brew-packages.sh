@@ -46,5 +46,5 @@ cd ~/.laptop
 if git status | grep -q brew-packages\.txt || git status | grep -q brew-cask-packages\.txt; then
   git add brew-packages.txt
   git add brew-cask-packages.txt
-  sh -c "cd ~/.laptop && git commit -m \"[automated] sync brew (cask) packages\" && git push" &
+  sh -c "cd ~/.laptop && git commit -m \"[automated] sync brew (cask) packages\" && git push" 2>&1 > /dev/null
 fi
