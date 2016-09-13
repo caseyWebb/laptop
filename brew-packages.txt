@@ -3,4 +3,3 @@ git
 go
 pcre
 zsh
-foobar
