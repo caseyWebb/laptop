@@ -13,4 +13,5 @@ libusb-compat
 pcre
 pinentry
 pth
+z
 zsh
