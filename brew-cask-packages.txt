@@ -1,2 +1,4 @@
 atom
+keepingyouawake
 keybase
+vlc

@@ -1,5 +1,16 @@
+dirmngr
 gdbm
 git
+gnupg2
 go
+gpg-agent
+libassuan
+libgcrypt
+libgpg-error
+libksba
+libusb
+libusb-compat
 pcre
+pinentry
+pth
 zsh
