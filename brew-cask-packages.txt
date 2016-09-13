@@ -3,4 +3,5 @@ dropbox
 keepingyouawake
 keybase
 slack
+visual-studio-code
 vlc
