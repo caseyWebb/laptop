@@ -4,10 +4,10 @@ export LANGUAGE=en_US.UTF-8
 
 export DISPLAY=":0.0"
 
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 export NPM_PACKAGES="${HOME}/.npm"
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules"
 export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$NPM_PACKAGES/bin"
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
