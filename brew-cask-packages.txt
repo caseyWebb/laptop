@@ -3,5 +3,6 @@ dropbox
 keepingyouawake
 keybase
 slack
+spotify
 visual-studio-code
 vlc
