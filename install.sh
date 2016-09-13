@@ -1,20 +1,28 @@
 #!/bin/bash
 
-if ! command -v brew >/dev/null 2>&1; then
+if ! command -v brew > /dev/null 2>&1; then
   echo "Installing homebrew..."
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  yes | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+else
+  echo "brew is already installed."
+fi
 
+if ! command -v brew cask > /dev/null 2>&1; then
   echo "Installing homebrew-cask..."
   brew tap caskroom/cask
-else
-  echo "\`brew\` found in \$PATH. Skipping."
 fi
 
-brew install git
-
-if [ ! -d "$HOME/.laptop" ]; then
-  git clone https://github.com/caseyWebb/laptop.git $HOME/.laptop
+if ! command -v git > /dev/null 2>&1; then
+  yes | brew install git
+  git config --global user.name "Casey Webb"
+  git config --global user.email "notcaseywebb@gmail.com"
 fi
 
-chmod +x $HOME/.laptop/scripts/*
-for s in $HOME/.laptop/scripts/*.sh; do source $s; done
+if [ ! -d ~/.laptop ]; then
+  git clone git@github.com:caseyWebb/laptop.git ~/.laptop
+fi
+
+chmod +x ~/.laptop/scripts/*
+for s in ~/.laptop/scripts/*.sh; do source $s; done
+
+zsh
