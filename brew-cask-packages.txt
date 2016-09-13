@@ -6,5 +6,4 @@ parallels-desktop
 slack
 spotify
 tunnelblick
-visual-studio-code
 vlc
