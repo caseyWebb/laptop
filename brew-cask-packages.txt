@@ -1,5 +1,6 @@
 atom
 cyberduck
+disk-inventory-x
 dropbox
 keepingyouawake
 keybase
