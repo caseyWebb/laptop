@@ -1,4 +1,5 @@
 atom
+dropbox
 keepingyouawake
 keybase
 slack
