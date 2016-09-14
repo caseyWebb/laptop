@@ -1,0 +1,23 @@
+"*":
+  core:
+    disabledPackages: [
+      "tabs"
+    ]
+    themes: [
+      "one-dark-ui"
+      "monokai"
+    ]
+  editor:
+    fontFamily: "Inconsolata"
+    fontSize: 12
+  "exception-reporting":
+    userId: "5491ada5-b120-affa-2561-b1d82aaffa58"
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "one-dark-ui": {}
+  tabs:
+    alwaysShowTabBar: false
+  welcome:
+    showOnStartup: false
