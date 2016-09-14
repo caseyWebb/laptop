@@ -1,9 +1,9 @@
 #!/bin/bash
 
 if [ ! -a ~/.ssh/id_* ] && [ -d /keybase/private/*/keys/ ]; then
-  echo "Importing ssh keys from keybase..."
+  echo "Importing ssh keys and configuration from keybase..."
   mkdir -p ~/.ssh
-  cp /keybase/private/*/keys/id_* ~/.ssh
+  ln -s /keybase/private/*/ssh/* ~/.ssh
   chmod -R 700 ~/.ssh
-  echo "SSH keys imported."
+  echo "SSH keys and config imported."
 fi
