@@ -25,8 +25,14 @@ ssh-add ~/.ssh/id_rsa &>/dev/null
 
 . `brew --prefix`/etc/profile.d/z.sh
 
-source ~/.laptop/scripts/20-aliases.sh
-screen -dm -S Shared ~/.laptop/scripts/20-sync-atom-packages.sh
-screen -dm -S Shared ~/.laptop/scripts/20-sync-brew-packages.sh
+chmod +x ~/.laptop/scripts/*.sh
 
-cd ~
+for script in ~/.laptop/scripts/20-*.sh; do
+  source $script
+done
+
+for script in ~/.laptop/scripts/30-*.sh; do
+  screen -dm -S Shared $script
+done
+
+cd
