@@ -2,6 +2,7 @@ atom
 cyberduck
 disk-inventory-x
 dropbox
+firefox
 keepingyouawake
 keybase
 parallels-desktop
