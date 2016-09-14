@@ -1,0 +1,3 @@
+#!/binh/bash
+
+n latest
