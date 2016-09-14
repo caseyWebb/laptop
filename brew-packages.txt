@@ -11,6 +11,7 @@ libgpg-error
 libksba
 libusb
 libusb-compat
+openssl
 pcre
 pinentry
 pth
