@@ -1,4 +1,5 @@
 aria2
+ccat
 dirmngr
 gdbm
 git

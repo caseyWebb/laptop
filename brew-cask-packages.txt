@@ -8,5 +8,6 @@ keybase
 parallels-desktop
 slack
 spotify
+transmission
 tunnelblick
 vlc
