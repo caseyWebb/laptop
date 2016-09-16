@@ -3,6 +3,7 @@ cyberduck
 disk-inventory-x
 dropbox
 firefox
+flux
 keepingyouawake
 keybase
 parallels-desktop
