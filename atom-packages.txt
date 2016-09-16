@@ -11,7 +11,7 @@ highlight-selected@0.11.2
 jumpy@3.1.1
 language-docker@1.1.7
 linter@1.11.16
-linter-eslint@7.3.1
+linter-eslint@7.3.2
 linter-sass-lint@1.7.1
 linter-tslint@0.11.1
 merge-conflicts@1.4.4
