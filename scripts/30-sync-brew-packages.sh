@@ -21,6 +21,7 @@ brew list > ~/.laptop/brew-packages.txt
 brew cask list > ~/.laptop/brew-cask-packages.txt
 
 cd ~/.laptop
+
 if git status | grep -q brew-packages\.txt || git status | grep -q brew-cask-packages\.txt; then
   git add brew-packages.txt
   git add brew-cask-packages.txt
@@ -42,3 +43,5 @@ if [ -f ~/.brew-update ]; then
 else
   _update_brew_update
 fi
+
+cd -

@@ -13,3 +13,5 @@ if git status | grep -q \.atom; then
   git add .atom
   sh -c "cd ~/.laptop && git commit -m \"[automated] sync atom config\" && git push" 2>&1 > /dev/null
 fi
+
+cd -
