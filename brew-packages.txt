@@ -16,5 +16,7 @@ openssl
 pcre
 pinentry
 pth
+the_silver_searcher
+xz
 z
 zsh

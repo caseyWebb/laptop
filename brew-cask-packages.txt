@@ -1,14 +1,1 @@
-atom
-cyberduck
-disk-inventory-x
-dropbox
-firefox
-flux
-keepingyouawake
-keybase
-parallels-desktop
-slack
-spotify
-transmission
-tunnelblick
-vlc
+==> Moving Caskroom from HOMEBREW_REPOSITORY to HOMEBREW_PREFIX
