@@ -6,7 +6,7 @@ export DISPLAY=":0.0"
 
 export NPM_PACKAGES=~/.npm
 export NODE_PATH="$NPM_PACKAGES/lib/node_modules"
-export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:$NPM_PACKAGES/bin"
+export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:$NPM_PACKAGES/bin"
 export N_PREFIX=~/n; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 export ZSH=~/.oh-my-zsh
