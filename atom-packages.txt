@@ -17,7 +17,7 @@ linter-tslint@0.11.1
 minimap@4.25.0
 minimap-highlight-selected@4.4.0
 monokai@0.18.0
-pigments@0.35.2
+pigments@0.35.3
 simple-drag-drop-text@0.3.1
 sort-lines@0.14.0
 tree-view-git-status@1.1.0
