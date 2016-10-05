@@ -8,7 +8,7 @@ editorconfig@1.4.1
 emmet@2.4.3
 file-icons@1.7.20
 highlight-selected@0.11.2
-jumpy@3.1.1
+jumpy@3.1.2
 language-docker@1.1.7
 linter@1.11.18
 linter-eslint@7.3.2
