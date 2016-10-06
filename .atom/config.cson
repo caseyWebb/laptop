@@ -1,4 +1,7 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "cf3965e0-8927-45b9-aeaf-744622a4cc38"
   core:
     disabledPackages: [
       "tabs"
