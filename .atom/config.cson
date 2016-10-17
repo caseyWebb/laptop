@@ -23,5 +23,7 @@
   "one-dark-ui": {}
   tabs:
     alwaysShowTabBar: false
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
