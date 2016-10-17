@@ -8,6 +8,7 @@ keepingyouawake
 keybase
 parallels-desktop
 postman
+robomongo
 slack
 spotify
 transmission
