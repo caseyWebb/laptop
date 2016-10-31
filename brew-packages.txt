@@ -17,6 +17,7 @@ pcre
 pinentry
 pth
 the_silver_searcher
+tree
 xz
 z
 zsh
