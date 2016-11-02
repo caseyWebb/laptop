@@ -12,6 +12,7 @@ libgpg-error
 libksba
 libusb
 libusb-compat
+mongodb
 openssl
 pcre
 pinentry
