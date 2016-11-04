@@ -18,7 +18,7 @@
     userId: "5491ada5-b120-affa-2561-b1d82aaffa58"
   "linter-eslint":
     disableWhenNoEslintConfig: false
-    eslintrcPath: "/Users/casey/code/UniversitySite/.eslintrc"
+    eslintrcPath: "/Users/caseywebb/code/UniversitySite/.eslintrc"
   minimap:
     plugins:
       "highlight-selected": true
