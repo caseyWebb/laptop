@@ -12,7 +12,7 @@ jumpy@3.1.3
 language-docker@1.1.7
 linter@1.11.18
 linter-eslint@8.0.0
-linter-sass-lint@1.7.1
+linter-sass-lint@1.7.2
 linter-tslint@0.11.1
 minimap@4.25.6
 minimap-highlight-selected@4.4.0
