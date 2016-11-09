@@ -6,6 +6,7 @@
     disabledPackages: [
       "tabs"
     ]
+    telemetryConsent: "limited"
     themes: [
       "one-dark-ui"
       "monokai"
