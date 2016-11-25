@@ -18,6 +18,7 @@ minimap@4.25.6
 minimap-highlight-selected@4.4.0
 monokai@0.18.0
 pigments@0.37.0
+react@0.16.1
 simple-drag-drop-text@0.3.1
 sort-lines@0.14.0
 tree-view-git-status@1.2.0
