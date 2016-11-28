@@ -1,3 +1,4 @@
+adobe-digital-editions
 atom
 cyberduck
 disk-inventory-x
