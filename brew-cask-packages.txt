@@ -14,4 +14,5 @@ slack
 spotify
 transmission
 tunnelblick
+visual-studio-code
 vlc
