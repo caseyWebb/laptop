@@ -13,7 +13,7 @@ language-docker@1.1.7
 linter@1.11.18
 linter-eslint@8.0.0
 linter-sass-lint@1.7.4
-linter-tslint@0.11.1
+linter-tslint@0.12.0
 minimap@4.25.7
 minimap-highlight-selected@4.4.0
 monokai@0.18.0
