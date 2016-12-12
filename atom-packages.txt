@@ -21,6 +21,6 @@ pigments@0.37.0
 react@0.16.1
 simple-drag-drop-text@0.3.1
 sort-lines@0.14.0
-tree-view-git-status@1.2.0
+tree-view-git-status@1.3.0
 
 
