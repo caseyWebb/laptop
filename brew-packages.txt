@@ -13,6 +13,7 @@ libksba
 libusb
 libusb-compat
 mongodb
+node
 openssl
 pcre
 pinentry
@@ -20,5 +21,6 @@ pth
 the_silver_searcher
 tree
 xz
+yarn
 z
 zsh
