@@ -5,6 +5,7 @@ disk-inventory-x
 dropbox
 firefox
 flux
+haskell-platform
 keepingyouawake
 keybase
 parallels-desktop
