@@ -13,6 +13,7 @@ postman
 robomongo
 slack
 spotify
+torbrowser
 transmission
 tunnelblick
 visual-studio-code
