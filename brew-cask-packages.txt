@@ -3,6 +3,7 @@ atom
 cyberduck
 disk-inventory-x
 dropbox
+electrum
 firefox
 flux
 haskell-platform
