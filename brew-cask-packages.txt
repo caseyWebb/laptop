@@ -8,6 +8,7 @@ firefox
 flux
 haskell-platform
 hyper
+java
 keepingyouawake
 keybase
 parallels-desktop
