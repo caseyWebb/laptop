@@ -11,6 +11,7 @@ hyper
 java
 keepingyouawake
 keybase
+microsoft-remote-desktop-beta
 parallels-desktop
 postman
 robomongo
