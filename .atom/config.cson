@@ -22,6 +22,7 @@
   "linter-eslint":
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/caseywebb/.eslintrc"
+    fixOnSave: true
     lintHtmlFiles: true
   minimap:
     plugins:
