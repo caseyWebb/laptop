@@ -16,6 +16,7 @@ libusb-compat
 mongodb
 node
 openssl
+parallel
 pcre
 pinentry
 pth
