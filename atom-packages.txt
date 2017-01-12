@@ -3,7 +3,7 @@ atom-reverser@2.4.0
 auto-update-packages@1.0.1
 autocomplete-modules@1.6.7
 code-peek@1.4.14
-color-picker@2.2.3
+color-picker@2.2.4
 editorconfig@2.0.5
 emmet@2.4.3
 file-icons@2.0.8
@@ -15,7 +15,7 @@ linter-eslint@8.0.0
 linter-sass-lint@1.7.4
 linter-tslint@0.13.0
 minimap@4.25.7
-minimap-highlight-selected@4.4.0
+minimap-highlight-selected@4.5.0
 monokai@0.18.0
 pigments@0.37.0
 react@0.16.2
