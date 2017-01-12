@@ -9,6 +9,7 @@ flux
 haskell-platform
 hyper
 java
+kdiff3
 keepingyouawake
 keybase
 microsoft-remote-desktop-beta
