@@ -18,10 +18,12 @@
   "exception-reporting":
     userId: "5491ada5-b120-affa-2561-b1d82aaffa58"
   jumpy: {}
-  linter: {}
+  linter:
+    errorPanelHeight: 25
   "linter-eslint":
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/caseywebb/.eslintrc"
+    fixOnSave: true
   minimap:
     plugins:
       "highlight-selected": true
