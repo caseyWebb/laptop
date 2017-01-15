@@ -18,7 +18,7 @@ export DISABLE_UNTRACKED_FILES_DIRTY=false
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UPDATE_PROMPT=true
 
-export EDITOR="/usr/local/bin/atom --new-window --wait"
+export EDITOR="atom --new-window --wait"
 
 source $ZSH/oh-my-zsh.sh
 
