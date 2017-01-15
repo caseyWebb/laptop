@@ -5,6 +5,7 @@
   core:
     disabledPackages: [
       "tabs"
+      "linter-tslint"
     ]
     telemetryConsent: "limited"
     themes: [
