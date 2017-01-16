@@ -1,5 +1,5 @@
 atom-beautify@0.29.16
-atom-reverser@2.4.0
+atom-reverser@2.5.1
 auto-update-packages@1.0.1
 autocomplete-modules@1.6.7
 code-peek@1.4.14
