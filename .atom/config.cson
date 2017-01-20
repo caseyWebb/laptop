@@ -24,7 +24,6 @@
   "linter-eslint":
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/caseywebb/.eslintrc"
-    fixOnSave: true
   minimap:
     plugins:
       "highlight-selected": true
