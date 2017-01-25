@@ -2,6 +2,7 @@
   "atom-beautify":
     general:
       _analyticsUserId: "cf3965e0-8927-45b9-aeaf-744622a4cc38"
+  "autocomplete-modules": {}
   core:
     disabledPackages: [
       "tabs"
@@ -24,7 +25,6 @@
   "linter-eslint":
     disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/caseywebb/.eslintrc"
-    fixOnSave: true
   minimap:
     plugins:
       "highlight-selected": true
