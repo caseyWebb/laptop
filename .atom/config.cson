@@ -5,7 +5,6 @@
   "autocomplete-modules": {}
   core:
     disabledPackages: [
-      "tabs"
       "linter-tslint"
     ]
     telemetryConsent: "limited"
