@@ -6,6 +6,22 @@
   core:
     disabledPackages: [
       "linter-tslint"
+      "tabs"
+      "about"
+      "archive-view"
+      "autocomplete-atom-api"
+      "autosave"
+      "image-view"
+      "language-c"
+      "language-clojure"
+      "language-java"
+      "language-make"
+      "language-mustache"
+      "language-objective-c"
+      "language-perl"
+      "language-php"
+      "language-ruby-on-rails"
+      "update-package-dependencies"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -18,6 +34,9 @@
     showInvisibles: true
   "exception-reporting":
     userId: "5491ada5-b120-affa-2561-b1d82aaffa58"
+  "find-and-replace":
+    openProjectFindResultsInRightPane: true
+  "fuzzy-finder": {}
   jumpy: {}
   linter:
     errorPanelHeight: 169
@@ -29,6 +48,7 @@
       "highlight-selected": true
       "highlight-selectedDecorationsZIndex": 0
   "one-dark-ui": {}
+  "status-bar": {}
   tabs:
     alwaysShowTabBar: false
   "tree-view":
