@@ -36,6 +36,5 @@ rpm
 the_silver_searcher
 tree
 xz
-yarn
 z
 zsh
