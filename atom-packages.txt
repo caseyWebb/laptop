@@ -14,7 +14,7 @@ linter@1.11.21
 linter-eslint@8.1.0
 linter-sass-lint@1.7.4
 linter-tslint@0.13.1
-minimap@4.26.7
+minimap@4.26.8
 minimap-highlight-selected@4.5.0
 monokai@0.20.0
 pigments@0.39.0
