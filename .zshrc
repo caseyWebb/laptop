@@ -18,6 +18,7 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 export EDITOR="atom --new-window --wait"
 
 source $ZSH/oh-my-zsh.sh
+source <(npm completion)
 
 plugins=(git)
 
