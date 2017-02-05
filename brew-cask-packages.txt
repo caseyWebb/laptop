@@ -13,6 +13,7 @@ kdiff3
 keepingyouawake
 keybase
 microsoft-remote-desktop-beta
+openemu
 parallels-desktop
 postman
 robomongo
