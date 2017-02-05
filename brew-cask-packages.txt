@@ -2,6 +2,7 @@ adobe-digital-editions
 atom
 cyberduck
 disk-inventory-x
+dolphin
 dropbox
 electrum
 firefox
