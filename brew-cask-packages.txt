@@ -12,6 +12,7 @@ hyper
 java
 kdiff3
 keepingyouawake
+keka
 keybase
 microsoft-remote-desktop-beta
 openemu
