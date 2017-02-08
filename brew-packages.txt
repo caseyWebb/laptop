@@ -29,6 +29,7 @@ openssl
 ossp-uuid
 parallel
 pcre
+phantomjs
 pinentry
 popt
 pth
