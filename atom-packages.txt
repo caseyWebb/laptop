@@ -23,5 +23,5 @@ react@0.16.2
 simple-drag-drop-text@0.3.4
 smart-tab-name@1.0.5
 sort-lines@0.14.0
-tree-view-git-status@1.3.0
+tree-view-git-status@1.3.1
 
