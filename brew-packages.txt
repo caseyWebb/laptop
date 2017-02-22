@@ -3,6 +3,7 @@ aria2
 berkeley-db
 ccat
 dirmngr
+ecm
 freetype
 gdbm
 gettext
@@ -27,6 +28,7 @@ mongodb
 node
 openssl
 ossp-uuid
+p7zip
 parallel
 pcre
 phantomjs
