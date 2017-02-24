@@ -1,4 +1,5 @@
 adobe-digital-editions
+amazon-chime
 atom
 cyberduck
 disk-inventory-x
