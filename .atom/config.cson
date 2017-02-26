@@ -22,6 +22,7 @@
       "language-php"
       "language-ruby-on-rails"
       "update-package-dependencies"
+      "atom-typescript"
     ]
     telemetryConsent: "limited"
     themes: [
