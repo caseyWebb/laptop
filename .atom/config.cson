@@ -42,7 +42,6 @@
   linter:
     errorPanelHeight: 169
   "linter-eslint":
-    disableWhenNoEslintConfig: false
     eslintrcPath: "/Users/caseywebb/.eslintrc"
     fixOnSave: true
   minimap:
