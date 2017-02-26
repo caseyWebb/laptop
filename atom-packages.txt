@@ -1,5 +1,6 @@
 atom-beautify@0.29.17
 atom-reverser@2.6.0
+atom-typescript@10.1.14
 auto-update-packages@1.0.1
 autocomplete-modules@1.6.7
 code-peek@1.4.16
@@ -13,6 +14,7 @@ language-docker@1.1.7
 language-powershell@4.0.0
 linter@1.11.23
 linter-eslint@8.1.2
+linter-flow@5.5.0
 linter-sass-lint@1.7.4
 linter-tslint@0.14.0
 minimap@4.26.8
