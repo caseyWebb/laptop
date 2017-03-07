@@ -39,7 +39,7 @@
   "fuzzy-finder": {}
   jumpy: {}
   linter:
-    errorPanelHeight: 47
+    errorPanelHeight: 30
   "linter-eslint":
     eslintrcPath: "/Users/caseywebb/.eslintrc"
     fixOnSave: true
