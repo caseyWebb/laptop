@@ -2,8 +2,8 @@ atom-beautify@0.29.17
 atom-reverser@2.6.0
 atom-typescript@10.1.15
 auto-update-packages@1.0.1
-autocomplete-modules@1.6.7
-code-peek@1.4.16
+autocomplete-modules@1.6.8
+code-peek@1.4.17
 color-picker@2.2.5
 editorconfig@2.2.2
 emmet@2.4.3
