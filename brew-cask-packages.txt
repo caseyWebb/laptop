@@ -1,6 +1,7 @@
 adobe-digital-editions
 amazon-chime
 atom
+caprine
 cyberduck
 disk-inventory-x
 dolphin
