@@ -19,7 +19,7 @@ linter-eslint@8.1.4
 linter-flow@5.5.0
 linter-sass-lint@1.7.4
 linter-tslint@0.14.0
-linter-ui-default@1.1.0
+linter-ui-default@1.2.1
 minimap@4.26.8
 minimap-highlight-selected@4.5.0
 modular-snippets@0.1.3
