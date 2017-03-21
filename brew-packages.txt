@@ -4,6 +4,7 @@ berkeley-db
 ccat
 dirmngr
 ecm
+emojify
 freetype
 gdbm
 gettext
