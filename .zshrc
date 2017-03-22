@@ -5,6 +5,7 @@ export LANGUAGE=en_US.UTF-8
 export DISPLAY=":0.0"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
+export PATH=$PATH:$(yarn global bin)
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
