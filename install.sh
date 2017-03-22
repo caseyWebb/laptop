@@ -1,4 +1,6 @@
 #!/bin/bash
+read -r -p "Enter sudo password: " -s suPassword
+echo
 
 if ! command -v brew > /dev/null 2>&1; then
   echo "Installing homebrew..."
@@ -21,6 +23,11 @@ fi
 if [ ! -d ~/.laptop ]; then
   git clone git@github.com:caseyWebb/laptop.git ~/.laptop
 fi
+
+chmod +x ~/.laptop/root_scripts/*
+for s in ~/.laptop/root_scripts/*.sh; do
+  echo $suPassword | sudo -S $s;
+done
 
 chmod +x ~/.laptop/scripts/*
 for s in ~/.laptop/scripts/*.sh; do source $s; done
