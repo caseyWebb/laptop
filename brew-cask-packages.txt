@@ -9,6 +9,7 @@ dropbox
 electrum
 firefox
 flux
+gifcapture
 haskell-platform
 hyper
 java
