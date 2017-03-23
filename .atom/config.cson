@@ -38,8 +38,7 @@
     projectSearchResultsPaneSplitDirection: "right"
   "fuzzy-finder": {}
   jumpy: {}
-  linter:
-    errorPanelHeight: 202
+  linter: {}
   "linter-eslint":
     eslintrcPath: "/Users/caseywebb/.eslintrc"
     fixOnSave: true
