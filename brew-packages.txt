@@ -15,6 +15,7 @@ gpg-agent
 graphicsmagick
 icu4c
 jpeg
+jq
 libassuan
 libgcrypt
 libgpg-error
@@ -28,6 +29,7 @@ libusb
 libusb-compat
 mongodb
 node
+oniguruma
 openssl
 ossp-uuid
 p7zip
