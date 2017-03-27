@@ -28,7 +28,6 @@ libtool
 libusb
 libusb-compat
 mongodb
-node
 oniguruma
 openssl
 ossp-uuid
