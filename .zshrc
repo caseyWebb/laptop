@@ -31,3 +31,5 @@ chmod +x ~/.laptop/scripts/*.sh
 
 for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
+
+curl -q0 https://api.github.com/zen
