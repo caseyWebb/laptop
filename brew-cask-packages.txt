@@ -18,6 +18,7 @@ keka
 keybase
 microsoft-remote-desktop-beta
 openemu
+osxfuse
 parallels-desktop
 postman
 robomongo
@@ -26,5 +27,6 @@ spotify
 torbrowser
 transmission
 tunnelblick
+veracrypt
 visual-studio-code
 vlc
