@@ -20,7 +20,7 @@ linter-flow@5.5.1
 linter-sass-lint@1.7.4
 linter-tslint@0.15.0
 linter-ui-default@1.2.2
-minimap@4.27.0
+minimap@4.27.1
 minimap-highlight-selected
 modular-snippets@0.1.3
 monokai@0.22.0
