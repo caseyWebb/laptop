@@ -1,5 +1,6 @@
 adobe-digital-editions
 amazon-chime
+android-platform-tools
 atom
 caprine
 cyberduck
