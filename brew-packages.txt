@@ -38,6 +38,7 @@ phantomjs
 pinentry
 popt
 pth
+redis
 rpm
 the_silver_searcher
 tree
