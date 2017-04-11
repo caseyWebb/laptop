@@ -21,7 +21,7 @@ export EDITOR="atom --new-window --wait"
 source $ZSH/oh-my-zsh.sh
 source <(npm completion)
 
-plugins=(git)
+plugins=(git,zsh-autosuggestions)
 
 ssh-add ~/.ssh/id_rsa &>/dev/null
 
