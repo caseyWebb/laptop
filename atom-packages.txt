@@ -1,4 +1,4 @@
-atom-beautify@0.29.18
+atom-beautify@0.29.19
 atom-reverser@2.6.0
 atom-typescript@11.0.1
 auto-update-packages@1.0.1
