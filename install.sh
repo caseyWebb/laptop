@@ -1,43 +1,37 @@
 #!/bin/bash
-read -r -p "Enter sudo password: " -s suPassword
+
+read -s -p "Enter sudo password: " password
 echo
 
-if ! command -v brew > /dev/null 2>&1; then
-  echo "Installing homebrew..."
-  yes | ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-else
-  echo "brew is already installed."
-fi
-
-if ! command -v brew cask > /dev/null 2>&1; then
-  echo "Installing homebrew-cask..."
-  brew tap caskroom/cask
-fi
-
 if ! command -v git > /dev/null 2>&1; then
-  yes | brew install git
+  echo "Installing git..."
+  echo $password | sudo -S yum install -y git
+  source $HOME/.bashrc
   git config --global user.name "Casey Webb"
   git config --global user.email "notcaseywebb@gmail.com"
+  echo "Done."
+else
+  echo "git already installed."
 fi
 
-if [ ! -d ~/.laptop ]; then
-  git clone git@github.com:caseyWebb/laptop.git ~/.laptop
+if [ ! -d $HOME/.laptop ]; then
+  git clone https://github.com/caseyWebb/laptop.git $HOME/.laptop
 fi
 
-chmod +x ~/.laptop/root_scripts/*
-for s in ~/.laptop/root_scripts/*.sh; do
-  echo $suPassword | sudo -S $s;
-done
+cd $HOME/.laptop
+echo "Checking out centos branch..."
+git checkout centos
+git pull
+cd -
 
-chmod +x ~/.laptop/scripts/*
-for s in ~/.laptop/scripts/*.sh; do source $s; done
+echo $password | sudo -S chmod +x $HOME/.laptop/root_scripts/*.sh
+echo $password | sudo -S chmod +x $HOME/.laptop/scripts/*.sh
 
-if [ ! -d /Applications/Google\ Chrome.app ]; then
-  open https://chrome.google.com
-fi
+echo $password | sudo -S $HOME/.laptop/root_scripts/00-install-dnf.sh
+echo $password | sudo -S $HOME/.laptop/root_scripts/01-install-zsh.sh
 
-if [ ! -d /Applications/Spectacle.app ]; then
-  open https://spectacleapp.com
-fi
+for s in $HOME/.laptop/scripts/*.sh; do source $s; done
+
+echo $password | sudo -S $HOME/.laptop/root_scripts/99-install-yarn.sh
 
 zsh

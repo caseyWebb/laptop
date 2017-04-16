@@ -1,1 +1,1 @@
-`curl https://raw.githubusercontent.com/caseyWebb/laptop/master/install.sh | bash`
+`curl https://raw.githubusercontent.com/caseyWebb/laptop/centos/install.sh | bash`

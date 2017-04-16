@@ -1,20 +1,12 @@
 [user]
 	name = Casey Webb
 	email = notcaseywebb@gmail.com
-	signingkey = A81562266B0C8121
 [core]
-	editor = atom --wait
-[commit]
-	gpgsign = true
-[diff]
-	tool = kdiff3
-[merge]
-	tool = kdiff3
+	editor = nano
 [difftool]
 	prompt = false
 [alias]
-	lg = ! git log --oneline --graph --color | emojify | less
-	cp = ! git rev-parse HEAD | tr -d '\\r' | pbcopy
+	lg = ! git log --oneline --graph --color | less
 	wip = ! git add -A && git commit -m \":construction: WIP\"
 	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
 	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
