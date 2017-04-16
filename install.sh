@@ -5,7 +5,7 @@ echo
 
 if ! command -v git > /dev/null 2>&1; then
   echo "Installing git..."
-  echo $password | sudo -S yum install -y git
+  echo $password | sudo -S apt-get install -y git
   source $HOME/.bashrc
   git config --global user.name "Casey Webb"
   git config --global user.email "notcaseywebb@gmail.com"
@@ -19,16 +19,15 @@ if [ ! -d $HOME/.laptop ]; then
 fi
 
 cd $HOME/.laptop
-echo "Checking out centos branch..."
-git checkout centos
+echo "Checking out debian branch..."
+git checkout debian
 git pull
 cd -
 
 echo $password | sudo -S chmod +x $HOME/.laptop/root_scripts/*.sh
 echo $password | sudo -S chmod +x $HOME/.laptop/scripts/*.sh
 
-echo $password | sudo -S $HOME/.laptop/root_scripts/00-install-dnf.sh
-echo $password | sudo -S $HOME/.laptop/root_scripts/01-install-zsh.sh
+echo $password | sudo -S $HOME/.laptop/root_scripts/00-install-zsh.sh
 
 for s in $HOME/.laptop/scripts/*.sh; do source $s; done
 

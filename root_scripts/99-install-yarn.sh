@@ -2,8 +2,10 @@
 
 if ! command -v yarn > /dev/null 2>&1; then
   echo "Installing yarn..."
-  wget https://dl.yarnpkg.com/rpm/yarn.repo -O /etc/yum.repos.d/yarn.repo
-  dnf install -y yarn
+  curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
+  echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
+  apt-get update
+  apt-get install yarn
   source $HOME/.bashrc
   echo "Done."
 else
