@@ -16,5 +16,6 @@
 	lg = ! git log --oneline --graph --color | emojify | less
 	cp = ! git rev-parse HEAD | tr -d '\\r' | pbcopy
 	wip = ! git add -A && git commit -m \":construction: WIP\"
+	empty = ! git commit --allow-empty -m \":ghost: Empty commit\"
 	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
 	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
