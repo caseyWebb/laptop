@@ -1,6 +1,6 @@
 atom-beautify@0.29.22
 atom-reverser@2.6.0
-atom-typescript@11.0.1
+atom-typescript@11.0.2
 auto-update-packages@1.0.1
 autocomplete-modules@1.6.9
 busy-signal@1.3.0
