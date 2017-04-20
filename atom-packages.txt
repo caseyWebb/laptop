@@ -16,7 +16,7 @@ language-docker@1.1.7
 language-powershell@4.0.0
 linter@2.1.4
 linter-eslint@8.1.6
-linter-flow@5.5.1
+linter-flow@5.6.0
 linter-sass-lint@1.7.4
 linter-tslint@1.1.0
 linter-ui-default@1.2.3
