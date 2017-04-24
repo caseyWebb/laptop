@@ -5,7 +5,6 @@
   "autocomplete-modules": {}
   core:
     disabledPackages: [
-      "linter-tslint"
       "tabs"
       "about"
       "archive-view"
@@ -50,6 +49,8 @@
       "source.js-semantic"
       "source.ts"
     ]
+  "linter-tslint":
+    fixOnSave: true
   "linter-ui-default":
     showPanel: true
   minimap:
