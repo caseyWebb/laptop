@@ -37,6 +37,7 @@ lzo
 lzop
 mongodb
 mpfr
+node
 oniguruma
 openssl
 ossp-uuid
