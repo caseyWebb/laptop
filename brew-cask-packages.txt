@@ -2,6 +2,7 @@ adobe-digital-editions
 amazon-chime
 android-platform-tools
 atom
+boostnote
 caprine
 cyberduck
 disk-inventory-x
