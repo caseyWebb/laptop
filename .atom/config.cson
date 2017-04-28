@@ -27,6 +27,7 @@
       "one-dark-ui"
       "monokai"
     ]
+  docblockr: {}
   editor:
     fontFamily: "Inconsolata"
     fontSize: 12
