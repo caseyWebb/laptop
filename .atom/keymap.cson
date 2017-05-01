@@ -30,3 +30,10 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'body':
+  'ctrl-k left': 'window:focus-pane-on-left'
+  'ctrl-k right': 'window:focus-pane-on-right'
+  'ctrl-k up': 'window:focus-pane-on-above'
+  'ctrl-k down': 'window:focus-pane-below'
+  #''
