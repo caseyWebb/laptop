@@ -11,6 +11,7 @@ gdbm
 gettext
 git
 gmp
+gnupg
 gnupg2
 go
 gpg-agent
@@ -28,6 +29,7 @@ libksba
 libmagic
 libmpc
 libpng
+libssh2
 libtasn1
 libtiff
 libtool
@@ -47,6 +49,7 @@ pcre
 phantomjs
 pigz
 pinentry
+pkg-config
 popt
 pth
 pv
