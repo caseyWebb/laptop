@@ -2,7 +2,7 @@ atom-beautify@0.29.24
 atom-reverser@2.6.0
 atom-typescript@11.0.3
 auto-update-packages@1.0.1
-autocomplete-modules@1.6.9
+autocomplete-modules@1.6.10
 busy-signal@1.4.1
 code-peek@1.4.18
 color-picker@2.2.5
