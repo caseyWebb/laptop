@@ -2,6 +2,7 @@ adns
 android-platform-tools
 aria2
 berkeley-db
+carthage
 ccat
 dirmngr
 ecm
