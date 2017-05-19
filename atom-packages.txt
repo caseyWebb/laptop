@@ -4,7 +4,7 @@ atom-typescript@11.0.3
 auto-update-packages@1.0.1
 autocomplete-modules@1.6.10
 busy-signal@1.4.1
-code-peek@1.4.19
+code-peek@1.4.20
 color-picker@2.2.5
 docblockr@0.9.4
 editorconfig@2.2.2
