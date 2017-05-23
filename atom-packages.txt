@@ -17,11 +17,11 @@ language-docker@1.1.7
 language-powershell@4.0.0
 language-rust@0.4.10
 linter@2.1.4
-linter-eslint@8.1.7
+linter-eslint@8.2.0
 linter-flow@5.6.0
 linter-rust@0.8.0
 linter-sass-lint@1.7.4
-linter-tslint@1.4.0
+linter-tslint@1.5.0
 linter-ui-default@1.2.4
 minimap@4.28.2
 minimap-highlight-selected
