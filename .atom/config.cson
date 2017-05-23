@@ -30,7 +30,7 @@
   docblockr: {}
   editor:
     fontFamily: "Inconsolata"
-    fontSize: 15
+    fontSize: 10
     showInvisibles: true
   "exception-reporting":
     userId: "5491ada5-b120-affa-2561-b1d82aaffa58"
