@@ -65,6 +65,7 @@ pv
 pxz
 readline
 redis
+ren
 rpm
 the_silver_searcher
 tree
