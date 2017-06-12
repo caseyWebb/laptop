@@ -18,3 +18,38 @@ function yat {
 function yrt {
   yarn remove $1 @types/$1
 }
+
+function ramd {
+  SIZE_MB=$1
+  DIR=$2
+  SIZE=`echo "$1 * 2048" | bc -l`
+  MIN_SIZE_MB=`echo "$(du -s $DIR | cut -f 1) / 2048" | bc -l`
+
+  if (( $SIZE_MB < $MIN_SIZE_MB ))
+    then
+      echo "Minimum $(printf "%.0f" $MIN_SIZE_MB)MB required to create RAMDisk for $DIR"
+      return
+  fi
+
+  mv $DIR $DIR.copy
+
+  DISK=`echo $(hdiutil attach -nobrowse -nomount ram://$SIZE)`
+  diskutil eraseVolume HFS+ RAM $DISK
+  diskutil unmount $DISK
+  mkdir -p $DIR
+  diskutil mount -mountPoint $DIR $DISK
+
+  mv -v $DIR.copy/* $DIR
+  rm -rf $DIR.copy
+}
+
+
+function unramd {
+  DIR=$1
+
+  mkdir -p $DIR.copy
+  mv -v $DIR/* $DIR.copy
+  diskutil unmount $DIR
+  rm -rf $DIR
+  mv $DIR.copy $DIR
+}
