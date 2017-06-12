@@ -38,9 +38,8 @@ function ramd {
   diskutil unmount $DISK
   mkdir -p $DIR
   diskutil mount -mountPoint $DIR $DISK
-
-  mv -v $DIR.copy/* $DIR
-  rm -rf $DIR.copy
+  
+  mv -v $DIR.copy $DIR
 }
 
 
