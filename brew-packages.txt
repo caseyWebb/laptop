@@ -45,7 +45,6 @@ lzop
 mongodb
 mpfr
 nettle
-node
 npth
 oniguruma
 openssl
