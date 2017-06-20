@@ -39,7 +39,10 @@ function ramd {
   mkdir -p $DIR
   diskutil mount -mountPoint $DIR $DISK
 
+  # cheap way to prevent errors 
+  touch $DIR.copy/foo $DIR.copy/.foo
   mv $DIR.copy/* $DIR.copy/.* $DIR
+  rm $DIR/foo $DIR/.foo
 }
 
 function unramd {
