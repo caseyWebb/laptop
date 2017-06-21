@@ -18,6 +18,7 @@ kdiff3
 keepingyouawake
 keka
 keybase
+logmein-hamachi
 microsoft-remote-desktop-beta
 openemu
 osxfuse
