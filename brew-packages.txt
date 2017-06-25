@@ -49,6 +49,7 @@ npth
 oniguruma
 openssl
 openssl@1.1
+optipng
 ossp-uuid
 p11-kit
 p7zip
