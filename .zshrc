@@ -18,6 +18,9 @@ export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PR
 
 export EDITOR="atom --new-window --wait"
 
+# zsh builtin to re-run last line. dangerous. do not want.
+disable r
+
 source $ZSH/oh-my-zsh.sh
 source <(npm completion)
 
@@ -33,7 +36,3 @@ for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 curl -s https://api.github.com/zen | sed 's/\n//'
-
-# tabtab source for UniversitySite package
-# uninstall by removing these lines or running `tabtab uninstall UniversitySite`
-[[ -f /Users/caseywebb/Code/UniversitySite/node_modules/tabtab/.completions/UniversitySite.zsh ]] && . /Users/caseywebb/Code/UniversitySite/node_modules/tabtab/.completions/UniversitySite.zsh
