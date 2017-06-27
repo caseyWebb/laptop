@@ -33,3 +33,7 @@ for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 curl -s https://api.github.com/zen | sed 's/\n//'
+
+# tabtab source for UniversitySite package
+# uninstall by removing these lines or running `tabtab uninstall UniversitySite`
+[[ -f /Users/caseywebb/Code/UniversitySite/node_modules/tabtab/.completions/UniversitySite.zsh ]] && . /Users/caseywebb/Code/UniversitySite/node_modules/tabtab/.completions/UniversitySite.zsh
