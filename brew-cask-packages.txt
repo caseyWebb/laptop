@@ -1,5 +1,3 @@
-adobe-digital-editions
-amazon-chime
 android-platform-tools
 atom
 boostnote
@@ -9,6 +7,7 @@ disk-inventory-x
 dolphin
 dropbox
 electrum
+etcher
 firefox
 gifcapture
 haskell-platform
