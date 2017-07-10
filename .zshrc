@@ -21,10 +21,6 @@ export EDITOR="atom --new-window --wait"
 # zsh builtin to re-run last line. dangerous. do not want.
 disable r
 
-compinit
-autoload -U bashcompinit
-bashcompinit
-
 source $ZSH/oh-my-zsh.sh
 
 plugins=(git zsh-autosuggestions)
