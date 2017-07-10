@@ -37,13 +37,6 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 curl -s https://api.github.com/zen | sed 's/\n//'
 
-###-begin-Tasks-completions-###
-#
-# yargs command completion script
-#
-# Installation: Tasks completion >> ~/.bashrc
-#    or Tasks completion >> ~/.bash_profile on OSX.
-#
 _yargs_completions()
 {
     local cur_word args type_list
@@ -52,7 +45,7 @@ _yargs_completions()
     args=("${COMP_WORDS[@]}")
 
     # ask yargs to generate completions.
-    type_list=$(Tasks --get-yargs-completions "${args[@]}")
+    type_list=$(us --get-yargs-completions "${args[@]}")
 
     COMPREPLY=( $(compgen -W "${type_list}" -- ${cur_word}) )
 
@@ -63,5 +56,5 @@ _yargs_completions()
 
     return 0
 }
-complete -F _yargs_completions Tasks
-###-end-Tasks-completions-###
+complete -F _yargs_completions us
+
