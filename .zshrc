@@ -37,6 +37,8 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 curl -s https://api.github.com/zen | sed 's/\n//'
 
+bashcompinit
+
 _yargs_completions()
 {
     local cur_word args type_list
