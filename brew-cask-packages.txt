@@ -10,6 +10,7 @@ electrum
 etcher
 firefox
 gifcapture
+gitter
 haskell-platform
 hyper
 java
