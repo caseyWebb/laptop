@@ -4,8 +4,11 @@ export LANGUAGE=en_US.UTF-8
 
 export DISPLAY=":0.0"
 
+export GOPATH=$HOME/Code/go
+
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
 export PATH=$PATH:$(yarn global bin)
+export PATH=$PATH:$GOPATH/bin
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
@@ -15,7 +18,6 @@ export DISABLE_UNTRACKED_FILES_DIRTY=false
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UPDATE_PROMPT=true
 export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-export GOPATH=$HOME/Code/go
 
 export EDITOR="atom --new-window --wait"
 
