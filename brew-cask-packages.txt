@@ -31,5 +31,6 @@ torbrowser
 transmission
 tunnelblick
 veracrypt
+virtualbox
 visual-studio-code
 vlc
