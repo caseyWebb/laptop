@@ -1,10 +1,8 @@
 android-platform-tools
 atom
-boostnote
 caprine
 cyberduck
 disk-inventory-x
-dolphin
 dropbox
 electrum
 etcher
@@ -13,17 +11,14 @@ gifcapture
 gitter
 haskell-platform
 hyper
-java
 kdiff3
 keepingyouawake
 keka
 keybase
 logmein-hamachi
 microsoft-remote-desktop-beta
-openemu
 osxfuse
 parallels-desktop
-postman
 robomongo
 slack
 spotify
@@ -31,6 +26,5 @@ torbrowser
 transmission
 tunnelblick
 veracrypt
-virtualbox
 visual-studio-code
 vlc
