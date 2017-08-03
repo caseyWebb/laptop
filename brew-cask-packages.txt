@@ -2,6 +2,7 @@ android-platform-tools
 atom
 caprine
 cyberduck
+dashlane
 disk-inventory-x
 dropbox
 electrum
@@ -13,7 +14,6 @@ haskell-platform
 hyper
 kdiff3
 keepingyouawake
-keeweb
 keka
 keybase
 logmein-hamachi
