@@ -16,6 +16,7 @@ kdiff3
 keepingyouawake
 keka
 keybase
+lionshare
 logmein-hamachi
 microsoft-remote-desktop-beta
 osxfuse
