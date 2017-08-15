@@ -19,6 +19,7 @@ keybase
 lionshare
 logmein-hamachi
 microsoft-remote-desktop-beta
+now
 openbazaar
 osxfuse
 parallels-desktop
