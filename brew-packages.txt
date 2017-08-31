@@ -55,6 +55,7 @@ ossp-uuid
 p11-kit
 p7zip
 parallel
+passenger
 pcre
 phantomjs
 pigz
