@@ -1,5 +1,6 @@
 android-platform-tools
 atom
+brave
 caprine
 cyberduck
 dashlane
