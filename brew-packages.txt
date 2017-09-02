@@ -1,6 +1,7 @@
 adns
 android-platform-tools
 aria2
+azure-cli
 berkeley-db
 carthage
 ccat
