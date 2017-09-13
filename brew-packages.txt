@@ -23,6 +23,7 @@ go
 gpg-agent
 graphicsmagick
 heroku
+heroku-node
 icu4c
 isl
 jpeg
