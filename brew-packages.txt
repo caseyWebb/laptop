@@ -13,6 +13,7 @@ gcc
 gdbm
 gettext
 git
+git-lfs
 gmp
 gnupg
 gnupg2
