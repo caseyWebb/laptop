@@ -1,6 +1,7 @@
 adns
 android-platform-tools
 aria2
+autoconf
 azure-cli
 berkeley-db
 carthage
@@ -67,10 +68,12 @@ popt
 pth
 pv
 pxz
+rbenv
 readline
 redis
 ren
 rpm
+ruby-build
 the_silver_searcher
 tree
 wget
