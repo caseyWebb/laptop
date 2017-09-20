@@ -20,6 +20,7 @@ keybase
 lionshare
 logmein-hamachi
 microsoft-remote-desktop-beta
+mono-mdk
 now
 openbazaar
 osxfuse
@@ -31,5 +32,6 @@ torbrowser
 transmission
 tunnelblick
 veracrypt
+visual-studio
 visual-studio-code
 vlc
