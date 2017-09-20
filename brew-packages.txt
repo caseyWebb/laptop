@@ -70,6 +70,7 @@ postgresql
 pth
 pv
 pxz
+ranger
 rbenv
 readline
 redis
