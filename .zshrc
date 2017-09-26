@@ -39,11 +39,4 @@ eval "$(rbenv init -)"
 for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
-# tabtab source for serverless package
-[[ -f /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
-[[ -f /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
-
 curl -s https://api.github.com/zen | sed 's/\n//'
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/caseywebb/.config/yarn/global/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
