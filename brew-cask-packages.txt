@@ -23,6 +23,7 @@ mono-mdk
 now
 osxfuse
 parallels-desktop
+private-internet-access
 robo-3t
 slack
 softu2f
@@ -30,7 +31,6 @@ spectacle
 spotify
 torbrowser
 transmission
-tunnelblick
 veracrypt
 visual-studio
 visual-studio-code
