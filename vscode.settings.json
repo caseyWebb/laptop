@@ -1,0 +1,30 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontFamily": "Inconsolata",
+  "editor.tabSize": 1,
+  "editor.formatOnType": true,
+  "editor.cursorBlinking": "phase",
+  "editor.fontLigatures": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.minimap.enabled": true,
+  "editor.minimap.renderCharacters": false,
+  "workbench.colorTheme": "Flatland Monokai",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.editor.showTabs": false,
+  "extensions.autoUpdate": true,
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "files.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/coverage": true,
+    "**/.serverless": true,
+    "**/*.old": true,
+    "**/dump.rdb": true
+  },
+  // "tslint.enable": true,
+  // "tslint.autoFixOnSave": true,
+  // "tslint.run": "onType",
+  "window.zoomLevel": 2
+}
