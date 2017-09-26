@@ -8,12 +8,10 @@ export EDITOR="atom --new-window --wait"
 export GOPATH=$HOME/Code/go
 export N_PREFIX="$HOME/.n"
 
-echo "HIIIIT"
-
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
-PATH+=:$(yarn global bin)
-PATH+=:$GOPATH/bin
 PATH+=:$N_PREFIX/bin
+PATH+=:$(yarn global bin) # must come after node
+PATH+=:$GOPATH/bin
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
