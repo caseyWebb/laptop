@@ -3,12 +3,15 @@ export LANG=en_US.UTF-8
 export LANGUAGE=en_US.UTF-8
 
 export DISPLAY=":0.0"
+export EDITOR="atom --new-window --wait"
 
 export GOPATH=$HOME/Code/go
+export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
 PATH+=:$(yarn global bin)
 PATH+=:$GOPATH/bin
+PATH+=:$N_PREFIX/bin
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
@@ -17,9 +20,6 @@ export COMPLETION_WAITING_DOTS=true
 export DISABLE_UNTRACKED_FILES_DIRTY=false
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UPDATE_PROMPT=true
-export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
-
-export EDITOR="atom --new-window --wait"
 
 # zsh builtin to re-run last line. dangerous. do not want.
 disable r
@@ -32,9 +32,9 @@ ssh-add ~/.ssh/id_rsa &>/dev/null
 
 . `brew --prefix`/etc/profile.d/z.sh
 
-chmod +x ~/.laptop/scripts/*.sh
-
 eval "$(rbenv init -)"
+
+chmod +x ~/.laptop/scripts/*.sh
 
 for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
