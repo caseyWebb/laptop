@@ -21,6 +21,7 @@ now
 parallels-desktop
 robomongo
 slack
+spectacle
 spotify
 torbrowser
 transmission

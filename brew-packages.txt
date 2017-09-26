@@ -2,7 +2,6 @@ adns
 android-platform-tools
 aria2
 autoconf
-berkeley-db
 ccat
 dirmngr
 emojify
