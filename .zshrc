@@ -6,7 +6,7 @@ export DISPLAY=":0.0"
 export EDITOR="atom --new-window --wait"
 
 export GOPATH=$HOME/Code/go
-export N_PREFIX="$HOME/.n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"
+export N_PREFIX="$HOME/.n"
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
 PATH+=:$(yarn global bin)
