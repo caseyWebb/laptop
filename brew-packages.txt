@@ -75,7 +75,6 @@ rbenv
 readline
 redis
 ren
-rpm
 ruby-build
 the_silver_searcher
 tree

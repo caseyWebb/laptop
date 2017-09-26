@@ -1,12 +1,9 @@
 android-platform-tools
-atom
-brave
 caprine
 cyberduck
 dashlane
 disk-inventory-x
 dropbox
-electrum
 etcher
 firefox
 gifcapture
@@ -20,10 +17,7 @@ keybase
 lionshare
 logmein-hamachi
 microsoft-remote-desktop-beta
-mono-mdk
 now
-openbazaar
-osxfuse
 parallels-desktop
 robomongo
 slack
