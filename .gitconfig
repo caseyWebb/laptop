@@ -7,11 +7,11 @@
 [commit]
 	gpgsign = true
 [diff]
-	tool = kdiff3
+	tool = vscode
 [merge]
 	tool = kdiff3
-[difftool]
-	prompt = false
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
 [alias]
 	lg = ! git log --oneline --graph --color | emojify | less
 	cp = ! git rev-parse HEAD | tr -d '\\r' | pbcopy
