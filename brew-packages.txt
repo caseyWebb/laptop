@@ -18,7 +18,6 @@ gnupg2
 gnutls
 go
 gpg-agent
-graphicsmagick
 icu4c
 isl
 jpeg
@@ -37,8 +36,6 @@ libtool
 libunistring
 libusb
 libusb-compat
-lzo
-lzop
 mongodb
 mpfr
 nettle
@@ -46,7 +43,6 @@ npth
 oniguruma
 openssl
 openssl@1.1
-optipng
 p11-kit
 p7zip
 pcre
