@@ -1,5 +1,0 @@
-'.source.js':
-
-  'Use Strict':
-    'prefix': 'strict'
-    'body': '\'use strict\''
