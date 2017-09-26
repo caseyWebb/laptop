@@ -17,7 +17,6 @@ gnutls
 go
 gpg-agent
 isl
-jpeg
 jq
 libassuan
 libffi
@@ -25,10 +24,8 @@ libgcrypt
 libgpg-error
 libksba
 libmpc
-libpng
 libssh2
 libtasn1
-libtiff
 libtool
 libunistring
 libusb
