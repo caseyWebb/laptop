@@ -6,6 +6,7 @@ disk-inventory-x
 dropbox
 etcher
 firefox
+font-inconsolata
 gifcapture
 gitter
 google-chrome
@@ -15,11 +16,16 @@ keepingyouawake
 keka
 keybase
 lionshare
+little-snitch
 logmein-hamachi
+micro-snitch
+mono-mdk
 now
+osxfuse
 parallels-desktop
 robo-3t
 slack
+softu2f
 spectacle
 spotify
 torbrowser

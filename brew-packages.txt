@@ -31,6 +31,7 @@ libunistring
 libusb
 libusb-compat
 libyubikey
+mas
 mongodb
 mpfr
 nettle
