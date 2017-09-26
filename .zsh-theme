@@ -4,7 +4,7 @@ local pwd="%{$fg_bold[cyan]%}%c%{$reset_color%}"
 function check_last_exit_code() {
   local LAST_EXIT_CODE=$?
   if [[ $LAST_EXIT_CODE -eq 130 ]]; then
-    echo "⬇️ "
+    echo "💀 "
   elif [[ $LAST_EXIT_CODE -ne 0 ]]; then
     echo "💩 "
   fi
