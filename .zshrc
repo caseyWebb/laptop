@@ -8,6 +8,8 @@ export EDITOR="atom --new-window --wait"
 export GOPATH=$HOME/Code/go
 export N_PREFIX="$HOME/.n"
 
+echo "HIIIIT"
+
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
 PATH+=:$(yarn global bin)
 PATH+=:$GOPATH/bin
