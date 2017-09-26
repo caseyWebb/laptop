@@ -7,8 +7,8 @@ export DISPLAY=":0.0"
 export GOPATH=$HOME/Code/go
 
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/caseywebb/n/bin"
-export PATH=$PATH:$(yarn global bin)
-export PATH=$PATH:$GOPATH/bin
+PATH+=:$(yarn global bin)
+PATH+=:$GOPATH/bin
 
 export ZSH=~/.oh-my-zsh
 export ZSH_THEME="custom"
