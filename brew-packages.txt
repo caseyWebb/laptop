@@ -5,7 +5,6 @@ autoconf
 ccat
 dirmngr
 emojify
-freetype
 gcc
 gdbm
 gettext
@@ -17,7 +16,6 @@ gnupg2
 gnutls
 go
 gpg-agent
-icu4c
 isl
 jpeg
 jq
