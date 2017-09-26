@@ -1,5 +1,4 @@
 adns
-android-platform-tools
 aria2
 autoconf
 ccat
@@ -12,12 +11,13 @@ git
 git-lfs
 gmp
 gnupg
-gnupg2
 gnutls
 go
 gpg-agent
+icu4c
 isl
 jq
+json-c
 libassuan
 libffi
 libgcrypt
@@ -30,9 +30,11 @@ libtool
 libunistring
 libusb
 libusb-compat
+libyubikey
 mongodb
 mpfr
 nettle
+node
 npth
 oniguruma
 openssl
@@ -55,6 +57,7 @@ tree
 wget
 xz
 yarn
+ykpers
 yubico-piv-tool
 z
 zsh
