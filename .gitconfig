@@ -3,7 +3,7 @@
 	email = notcaseywebb@gmail.com
 	signingkey = A81562266B0C8121
 [core]
-	editor = atom --wait
+	editor = code --new-window --wait
 [commit]
 	gpgsign = true
 [diff]
@@ -19,3 +19,8 @@
 	empty = ! git commit --allow-empty -m \":ghost: Empty commit\"
 	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
 	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process

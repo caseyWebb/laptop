@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [ -a /keybase/private/*/gpg_private.asc ]; then
+if [ -a /keybase/private/*/gpg/private.asc ]; then
   echo "Importing gpg key from keybase..."
-  gpg --import /keybase/private/*/gpg_private.asc
+  gpg --import /keybase/private/*/gpg/private.asc
 fi
