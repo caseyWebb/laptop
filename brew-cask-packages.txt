@@ -6,6 +6,7 @@ disk-inventory-x
 dropbox
 etcher
 firefox
+firefoxdeveloperedition
 font-inconsolata
 gifcapture
 gitter
