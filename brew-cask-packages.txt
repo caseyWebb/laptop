@@ -37,3 +37,4 @@ veracrypt
 visual-studio
 visual-studio-code
 vlc
+yakyak
