@@ -4,6 +4,7 @@ cyberduck
 dashlane
 disk-inventory-x
 dropbox
+electrum
 etcher
 firefox
 firefoxdeveloperedition
