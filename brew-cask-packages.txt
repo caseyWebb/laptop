@@ -8,6 +8,7 @@ electrum
 etcher
 firefox
 firefoxdeveloperedition
+font-fira-code
 font-inconsolata
 gifcapture
 gitter
