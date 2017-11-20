@@ -19,7 +19,7 @@ PATH+=:$(yarn global bin) # must come after node
 PATH+=:$GOPATH/bin
 
 export ZSH=~/.oh-my-zsh
-export ZSH_THEME="custom"
+#export ZSH_THEME="custom"
 export ENABLE_CORRECTION=true
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UNTRACKED_FILES_DIRTY=false
