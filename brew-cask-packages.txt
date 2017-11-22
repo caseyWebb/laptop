@@ -16,6 +16,7 @@ google-chrome
 google-trends
 haskell-platform
 hyper
+java
 karabiner
 karabiner-elements
 keepingyouawake
