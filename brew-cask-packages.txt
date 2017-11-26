@@ -3,6 +3,7 @@ caprine
 cyberduck
 dashlane
 disk-inventory-x
+dotnet
 dotnet-sdk
 dropbox
 electrum
