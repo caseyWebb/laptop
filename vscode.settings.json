@@ -1,7 +1,8 @@
 // Place your settings in this file to overwrite the default settings
 {
-  "editor.fontFamily": "Inconsolata",
-  "editor.tabSize": 1,
+  // "editor.fontFamily": "Inconsolata",
+  "editor.fontFamily": "'Fira Code'",
+  "editor.tabSize": 2,
   "editor.formatOnType": true,
   "editor.cursorBlinking": "phase",
   "editor.fontLigatures": true,
@@ -14,17 +15,33 @@
   "extensions.autoUpdate": true,
   "zenMode.fullScreen": false,
   "zenMode.hideStatusBar": false,
+  "search.useIgnoreFilesByDefault": true,
   "files.exclude": {
     "**/node_modules": true,
-    "**/dist": true,
+    "**/dist": false,
     "**/build": true,
     "**/coverage": true,
     "**/.serverless": true,
     "**/*.old": true,
-    "**/dump.rdb": true
+    "**/dump.rdb": true,
+    "**/yarn.lock": true,
+    "**/package-lock.json": true,
+    "**/*.min.js": true
   },
-  // "tslint.enable": true,
-  // "tslint.autoFixOnSave": true,
-  // "tslint.run": "onType",
-  "window.zoomLevel": 2
+  "eslint.autoFixOnSave": true,
+  "tslint.enable": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.run": "onType",
+  "window.zoomLevel": 1,
+  "explorer.confirmDragAndDrop": false,
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": false,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": true
+  }
 }

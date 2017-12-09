@@ -1,10 +1,11 @@
 module.exports = {
   config: {
     fontSize: 12,
-    fontFamily: '"Inconsolata for Powerline", "DejaVu Sans Mono", "Lucida Console", monospace',
+    fontFamily: 'Fira Mono for Powerline',
 
     cursorColor: 'rgba(248,28,229,0.8)',
-    cursorShape: 'BLOCK',
+    // cursorShape: 'BLOCK',
+    cursorShape: 'UNDERLINE',
 
     foregroundColor: '#fff',
     backgroundColor: '#000',
@@ -54,6 +55,11 @@ module.exports = {
     'hyperterm-tab-icons',
     'hyperlinks',
     'hypernasa',
-    'hyperterm-monokai'
+    // 'hyper-snazzy',
+    // 'hyper-monokai',
+    'hyperterm-monokai',
+    // 'hyperterm-solarized-dark',
+    // 'hyper-one-dark',
+    'hyper-spotify'
   ]
 }
