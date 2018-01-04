@@ -19,6 +19,7 @@
 	empty = ! git commit --allow-empty -m \":ghost: Empty commit\"
 	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
 	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
+	fubar = ! git reset --hard && git clean -fd
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
