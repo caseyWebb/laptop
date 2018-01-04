@@ -5,6 +5,7 @@ alias copy_public_key="cat ~/.ssh/id_rsa.pub | pbcopy"
 
 alias generate_secure_string="openssl rand -base64 32"
 
+alias vsdiff="code --new-window --diff"
 alias y="yarn"
 alias ya="yarn add"
 alias yd="yarn add -D"
@@ -53,4 +54,19 @@ function unramd {
   diskutil unmount $DIR
   rm -rf $DIR
   mv $DIR.copy $DIR
+}
+
+function porthog {
+  PORT=$1
+  echo `lsof -ti tcp:$PORT`
+}
+
+function freeport {
+  PORT=$1
+  PID=`lsof -ti tcp:$PORT`
+  if [ -z "$PID"]; then
+    echo "No process running on port $PORT"
+  else
+    kill -KILL $PID
+  fi
 }
