@@ -4,6 +4,7 @@ autoconf
 ccat
 dirmngr
 emojify
+fish
 gcc
 gdbm
 gettext
@@ -46,6 +47,7 @@ openssl@1.1
 p11-kit
 p7zip
 pcre
+pcre2
 pinentry
 pkg-config
 postgresql
