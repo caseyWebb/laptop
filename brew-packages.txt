@@ -21,6 +21,7 @@ jpeg
 jq
 json-c
 libassuan
+libevent
 libffi
 libgcrypt
 libgpg-error
@@ -56,6 +57,7 @@ readline
 redis
 ruby-build
 the_silver_searcher
+tmux
 tree
 wget
 xz
