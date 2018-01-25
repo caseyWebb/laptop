@@ -1,4 +1,5 @@
 android-platform-tools
+atom
 caprine
 cyberduck
 dashlane
