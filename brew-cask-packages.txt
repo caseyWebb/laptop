@@ -30,6 +30,7 @@ now
 osxfuse
 parallels-desktop
 private-internet-access
+resilio-sync
 robo-3t
 slack
 softu2f
