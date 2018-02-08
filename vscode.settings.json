@@ -15,11 +15,10 @@
   "extensions.autoUpdate": true,
   "zenMode.fullScreen": false,
   "zenMode.hideStatusBar": false,
-  "search.useIgnoreFilesByDefault": true,
   "files.exclude": {
     "**/node_modules": true,
     "**/dist": false,
-    "**/build": true,
+    "**/build": false,
     "**/coverage": true,
     "**/.serverless": true,
     "**/*.old": true,
@@ -32,7 +31,7 @@
   "tslint.enable": true,
   "tslint.autoFixOnSave": true,
   "tslint.run": "onType",
-  "window.zoomLevel": 1,
+  "window.zoomLevel": 0,
   "explorer.confirmDragAndDrop": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
@@ -43,5 +42,10 @@
     "suppressNoRepositoryWarning": false,
     "suppressUpdateNotice": false,
     "suppressWelcomeNotice": true
-  }
+  },
+  "workbench.startupEditor": "newUntitledFile",
+  "gitlens.codeLens.scopes": [
+    "document",
+    "containers"
+  ]
 }
