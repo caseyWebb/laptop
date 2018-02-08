@@ -10,6 +10,7 @@ alias y="yarn"
 alias ya="yarn add"
 alias yd="yarn add -D"
 alias yr="yarn remove"
+alias serve="npx http-server"
 
 function yat {
   yarn add $1
