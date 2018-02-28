@@ -20,6 +20,7 @@
 	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
 	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
 	fubar = ! git reset --hard && git clean -fd
+	sdiff = ! git diff --cached
 [filter "lfs"]
 	required = true
 	clean = git-lfs clean -- %f
