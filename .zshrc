@@ -19,14 +19,13 @@ PATH+=:$(yarn global bin) # must come after node
 PATH+=:$GOPATH/bin
 
 export ZSH=~/.oh-my-zsh
-#export ZSH_THEME="custom"
 export ENABLE_CORRECTION=true
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UNTRACKED_FILES_DIRTY=false
 export COMPLETION_WAITING_DOTS=true
 export DISABLE_UPDATE_PROMPT=true
 
-# zsh builtin to re-run last line. dangerous. do not want.
+# zsh builtin to re-run last line. dangerous. do not want. use `!!`.
 disable r
 
 source $ZSH/oh-my-zsh.sh
