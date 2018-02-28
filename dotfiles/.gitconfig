@@ -1,0 +1,28 @@
+[user]
+	name = Casey Webb
+	email = notcaseywebb@gmail.com
+	signingkey = A81562266B0C8121
+[core]
+	editor = code --new-window --wait
+[commit]
+	gpgsign = true
+[diff]
+	tool = vscode
+[merge]
+	tool = kdiff3
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[alias]
+	lg = ! git log --oneline --graph --color | emojify | less
+	cp = ! git rev-parse HEAD | tr -d '\\r' | pbcopy
+	wip = ! git add -A && git commit -m \":construction: WIP\"
+	empty = ! git commit --allow-empty -m \":ghost: Empty commit\"
+	rb  = "! _rebase() { git checkout $1 && git pull --rebase && git checkout - && git rebase -i $1; }; _rebase"
+	br = "! _branch() { git checkout $1 && git pull --rebase && git checkout -b $2; }; _branch"
+	fubar = ! git reset --hard && git clean -fd
+	sdiff = ! git diff --cached
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
