@@ -12,7 +12,7 @@ Built with:
 ### Install
 
 - Fork
-- Change `caseyWebb` to your GitHub username in [`install.sh`](./install.sh)
+- Change "caseyWebb" to your GitHub username in [`install.sh`](./install.sh)
 - Edit [`dotfiles/.gitconfig`](./dotfiles/.gitconfig)
 - `curl https://raw.githubusercontent.com/<your-username>/laptop/master/install.sh | bash`
 
@@ -27,8 +27,9 @@ Built with:
 
 There are 4 types of [scripts](./scripts), designated by the first digit:
 
-| Digit | Type                          |
-| 0     | install                       |
+| Digit | Type                          |
+|-------|-------------------------------|
+| 0     | install                       |
 | 1     | system configuration          |
 | 2     | environment configuration     |
 | 3     | chores                        |
@@ -36,6 +37,8 @@ There are 4 types of [scripts](./scripts), designated by the first digit:
 - Install and system configuration scripts are ran once by the [main install script](./install.sh)
 - Environment configuration scripts are ran _in the current context_ each time a shell is opened
 - Chores are ran _in a spawned process ([screen][])_ each time a shell is opened
+
+For install and configuration scripts (system and environment) the second digit allows controlling the order of execution.
 
 #### Secrets
 
@@ -57,3 +60,4 @@ This setup will automatically import the following files:
 [Homebrew]: https://brew.sh/
 [Keybase]: https://keybase.io/
 [zsh]: https://zsh.org
+[screen]: https://www.gnu.org/software/screen/
