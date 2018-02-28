@@ -43,9 +43,8 @@ chmod +x ~/.laptop/scripts/*.sh
 for script in ~/.laptop/scripts/20-*.sh; do source $script; done
 for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
-curl -s https://api.github.com/zen | sed 's/\n//'
-# added by travis gem
 [ -f /Users/casey/.travis/travis.sh ] && source /Users/casey/.travis/travis.sh
 
-
 source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+
+curl -s https://api.github.com/zen | sed 's/\n//'
