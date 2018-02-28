@@ -5,6 +5,8 @@ alias copy_public_key="cat ~/.ssh/id_rsa.pub | pbcopy"
 
 alias generate_secure_string="openssl rand -base64 32"
 
+alias flush_dns_cache="sudo dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
+
 alias vsdiff="code --new-window --diff"
 alias y="yarn"
 alias ya="yarn add"
