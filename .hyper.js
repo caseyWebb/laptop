@@ -4,7 +4,6 @@ module.exports = {
     fontFamily: 'Fira Mono for Powerline',
 
     cursorColor: 'rgba(248,28,229,0.8)',
-    // cursorShape: 'BLOCK',
     cursorShape: 'UNDERLINE',
 
     foregroundColor: '#fff',
@@ -55,11 +54,7 @@ module.exports = {
     'hyperterm-tab-icons',
     'hyperlinks',
     'hypernasa',
-    // 'hyper-snazzy',
-    // 'hyper-monokai',
     'hyperterm-monokai',
-    // 'hyperterm-solarized-dark',
-    // 'hyper-one-dark',
     'hyper-spotify'
   ]
 }
