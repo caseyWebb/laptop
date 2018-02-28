@@ -57,6 +57,8 @@ This setup will automatically import the following files:
 └── vars.sh         // secure environment variables  (e.g. `export AWS_ACCESS_KEY_ID=...`)
 ```
 
+The benefits of storing your keys (encrypted) in the cloud is not only syncing across machines or installs, but also revocability via Keybase (although you should still change your keys if you have reason to believe theyve been compromised).
+
 [Homebrew]: https://brew.sh/
 [Keybase]: https://keybase.io/
 [zsh]: https://zsh.org
