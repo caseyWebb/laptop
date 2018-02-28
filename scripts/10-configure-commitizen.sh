@@ -1,7 +1,6 @@
 #!/bin/bash
 
-if [ ! -a ~/.czrc ]; then
-  echo "Linking .czrc..."
-  ln -s ~/.laptop/.czrc ~/.czrc
-  echo "Done."
+if [[ ! -a ~/.czrc ]]; then
+  echo "Configuring commitizen"
+  ln -s ~/.laptop/dotfiles/.czrc ~/.czrc
 fi

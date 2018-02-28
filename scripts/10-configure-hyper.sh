@@ -1,6 +1,5 @@
 #!/bin/bash
 
-echo "Linking .hyper.js..."
+echo "Configuring hyper"
 rm ~/.hyper.js
-ln -s ~/.laptop/.hyper.js ~/.hyper.js
-echo "Done."
+ln -s ~/.laptop/dotfiles/.hyper.js ~/.hyper.js

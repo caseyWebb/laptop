@@ -23,7 +23,7 @@ brew bundle dump --force
 
 if git status | grep -q Brewfile; then
   git add Brewfile
-  sh -c "cd ~/.laptop && git commit -m \":factory: (homebrew) [automated] sync homebrew packages\" && git push" 2>&1 > /dev/null
+  sh -c "cd ~/.laptop && git commit -m \":factory: (homebrew) [automated] sync packages\" && git push" 2>&1 > /dev/null
 fi
 
 if [ -f ~/.brew-update ]; then
