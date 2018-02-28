@@ -7,7 +7,7 @@ function _current_epoch() {
 }
 
 function _update_brew_update() {
-  echo "LAST_EPOCH=$(_current_epoch)" >! ~/.brew-update
+  echo "LAST_EPOCH=$(_current_epoch)" >! ~/.laptop/.brew-update
 }
 
 function _upgrade_brew() {
@@ -17,19 +17,17 @@ function _upgrade_brew() {
   _update_brew_update
 }
 
-brew list > ~/.laptop/brew-packages.txt
-brew cask list > ~/.laptop/brew-cask-packages.txt
-
 cd ~/.laptop
 
-if git status | grep -q brew-packages\.txt || git status | grep -q brew-cask-packages\.txt; then
-  git add brew-packages.txt
-  git add brew-cask-packages.txt
-  sh -c "cd ~/.laptop && git commit -m \"[automated] sync brew (cask) packages\" && git push" 2>&1 > /dev/null
+brew bundle dump --force
+
+if git status | grep -q Brewfile; then
+  git add Brewfile
+  sh -c "cd ~/.laptop && git commit -m \":factory: (homebrew) [automated] sync homebrew packages\" && git push" 2>&1 > /dev/null
 fi
 
 if [ -f ~/.brew-update ]; then
-  . ~/.brew-update
+  . ~/.laptop/.brew-update
 
   if [[ -z "$LAST_EPOCH" ]]; then
     _update_brew_update && return 0;
