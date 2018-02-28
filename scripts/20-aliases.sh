@@ -14,6 +14,10 @@ alias yd="yarn add -D"
 alias yr="yarn remove"
 alias serve="npx http-server"
 
+function clone {
+  git clone gh:$1
+}
+
 function yat {
   yarn add $1
   yarn add -D @types/$1
