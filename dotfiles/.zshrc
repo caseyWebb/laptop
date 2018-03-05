@@ -49,4 +49,4 @@ source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 when c
 
-# curl -s https://api.github.com/zen | sed 's/\n//'
+curl -s https://api.github.com/zen | sed 's/\n//'
