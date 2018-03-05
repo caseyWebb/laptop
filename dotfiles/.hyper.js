@@ -51,7 +51,7 @@ module.exports = {
 
   plugins: [
     'hyperterm-tab-icons',
-    // 'hyperlinks',
+    'hyperlinks',
     'hypernasa',
     'hyperterm-monokai',
     // 'hyper-spotify'
