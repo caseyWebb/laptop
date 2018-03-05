@@ -50,11 +50,10 @@ module.exports = {
   },
 
   plugins: [
-    'hypercwd',
     'hyperterm-tab-icons',
-    'hyperlinks',
+    // 'hyperlinks',
     'hypernasa',
     'hyperterm-monokai',
-    'hyper-spotify'
+    // 'hyper-spotify'
   ]
 }
