@@ -46,7 +46,7 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 [ -f /Users/casey/.travis/travis.sh ] && source /Users/casey/.travis/travis.sh
 
 when c --calendar_today_style="bold,fgyellow"
-when w --no-header
+when w --no-header --no-paging
 
 cd ~/Code
 
