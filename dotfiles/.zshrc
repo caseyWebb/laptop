@@ -51,3 +51,4 @@ source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 when c --calendar_today_style="bold,fgyellow"
 when w --no-header
 
+cd ~/Code
