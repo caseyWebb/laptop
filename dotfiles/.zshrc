@@ -8,7 +8,7 @@ export LC_TIME="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
 
 export DISPLAY=":0.0"
-export EDITOR="atom --new-window --wait"
+export EDITOR="code --new-window --wait"
 
 export GOPATH=$HOME/Code/go
 export N_PREFIX="$HOME/.n"
@@ -47,4 +47,6 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 
 source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
-curl -s https://api.github.com/zen | sed 's/\n//'
+when c
+
+# curl -s https://api.github.com/zen | sed 's/\n//'
