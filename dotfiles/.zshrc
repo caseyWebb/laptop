@@ -48,6 +48,6 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
 
 # curl -s https://api.github.com/zen | sed 's/\n//'
-when c
+when c --calendar_today_style="bold,fgyellow"
 when w --no-header
 
