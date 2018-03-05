@@ -50,3 +50,6 @@ when c --calendar_today_style="bold,fgyellow"
 when w --no-header
 
 cd ~/Code
+
+autoload -U promptinit; promptinit
+prompt spaceship
