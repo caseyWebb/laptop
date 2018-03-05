@@ -50,6 +50,6 @@ when c --calendar_today_style="bold,fgyellow"
 when w --no-header
 
 cd ~/Code
-# Set Spaceship ZSH as a prompt
+
 autoload -U promptinit; promptinit
 prompt spaceship
