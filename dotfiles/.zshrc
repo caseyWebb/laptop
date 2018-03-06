@@ -48,7 +48,5 @@ for script in ~/.laptop/scripts/30-*.sh; do screen -dm -S Shared $script; done
 when c --calendar_today_style="bold,fgyellow"
 when w --no-header --no-paging
 
-cd ~/Code
-
 autoload -U promptinit; promptinit
 prompt spaceship
