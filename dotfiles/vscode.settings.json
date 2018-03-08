@@ -48,5 +48,6 @@
     "document",
     "containers"
   ],
-  "diffEditor.ignoreTrimWhitespace": true
+  "diffEditor.ignoreTrimWhitespace": true,
+  "gitlens.keymap": "alternate"
 }
