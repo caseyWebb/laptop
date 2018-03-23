@@ -22,7 +22,7 @@ brew "libmpc"
 brew "gcc"
 brew "gdbm"
 brew "gettext"
-brew "git"
+brew "git", link: false
 brew "git-lfs"
 brew "libffi"
 brew "libtasn1"
