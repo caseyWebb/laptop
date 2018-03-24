@@ -17,6 +17,7 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/bin:/bin:/usr/sbin:/sbin:/Users
 PATH+=:$N_PREFIX/bin
 PATH+=:$(yarn global bin) # must come after node
 PATH+=:$GOPATH/bin
+PATH+=:$HOME/Library/Haskell/bin
 
 export ZSH=~/.oh-my-zsh
 export ENABLE_CORRECTION=true
