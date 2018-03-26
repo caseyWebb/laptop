@@ -32,7 +32,7 @@ disable r
 
 source $ZSH/oh-my-zsh.sh
 
-plugins=(git zsh-autosuggestions)
+plugins=(git zsh-autosuggestions yarn-autocompletions)
 
 ssh-add ~/.ssh/id_rsa &>/dev/null
 
