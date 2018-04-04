@@ -19,7 +19,7 @@ PATH+=:$(yarn global bin) # must come after node
 PATH+=:$GOPATH/bin
 PATH+=:$HOME/Library/Haskell/bin
 PATH+=:$HOME/.local/bin
-PATH+=/usr/local/share/dotnet/
+PATH+=:/usr/local/share/dotnet/
 
 export ZSH=~/.oh-my-zsh
 export ENABLE_CORRECTION=true
