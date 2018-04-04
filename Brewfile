@@ -43,7 +43,7 @@ brew "hugo"
 brew "jpeg"
 brew "libtool"
 brew "xz"
-brew "ipfs"
+brew "ipfs", restart_service: true
 brew "oniguruma"
 brew "jq"
 brew "json-c"
