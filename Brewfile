@@ -68,7 +68,7 @@ brew "tmux"
 brew "tree"
 brew "wget"
 brew "when"
-brew "wireshark"
+brew "wireshark", link: false
 brew "yarn"
 brew "ykpers"
 brew "yubico-piv-tool"
