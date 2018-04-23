@@ -129,4 +129,5 @@ mas "Boxy", id: 1053031090
 mas "Coin Tick", id: 1141688067
 mas "CopyClip", id: 595191960
 mas "Microsoft Remote Desktop", id: 715768417
+mas "Textual 7", id: 1262957439
 mas "Xcode", id: 497799835
