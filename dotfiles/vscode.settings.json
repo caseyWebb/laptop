@@ -31,7 +31,7 @@
   "tslint.enable": true,
   "tslint.autoFixOnSave": true,
   "tslint.run": "onType",
-  "window.zoomLevel": -1,
+  "window.zoomLevel": 0,
   "explorer.confirmDragAndDrop": false,
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,

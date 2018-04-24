@@ -51,7 +51,11 @@ module.exports = {
 
   plugins: [
     'hyperterm-tab-icons',
-    'hypernasa',
+    // 'hypernasa',
     'hyperterm-monokai'
+  ],
+
+  localPlugins: [
+    'hypernasa'
   ]
 }
