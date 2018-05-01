@@ -55,3 +55,6 @@ when w --no-header --no-paging
 
 autoload -U promptinit; promptinit
 prompt spaceship
+
+
+source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
