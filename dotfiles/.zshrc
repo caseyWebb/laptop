@@ -58,3 +58,6 @@ prompt spaceship
 
 
 source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
+
+
+source "/Users/casey/.oh-my-zsh/custom/themes/spaceship.zsh-theme"
