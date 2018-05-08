@@ -51,5 +51,12 @@
     "containers"
   ],
   "diffEditor.ignoreTrimWhitespace": true,
-  "gitlens.keymap": "chorded"
+  "gitlens.keymap": "chorded",
+  "todohighlight.keywords": [
+    {
+      "text": "@TODO",
+      "color": "white",
+      "backgroundColor": "red"
+    }
+  ]
 }
