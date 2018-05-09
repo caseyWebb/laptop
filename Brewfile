@@ -81,7 +81,6 @@ cask "gimp"
 cask "gitify"
 cask "gitter"
 cask "google-chrome"
-cask "haskell-platform"
 cask "hyper"
 cask "keepingyouawake"
 cask "keka"
@@ -106,4 +105,3 @@ cask "caskroom/fonts/font-inconsolata"
 mas "Boxy", id: 1053031090
 mas "CopyClip", id: 595191960
 mas "Microsoft Remote Desktop", id: 715768417
-mas "Textual 7", id: 1262957439
