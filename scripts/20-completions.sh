@@ -1,1 +1,0 @@
-source <(npm completion)
