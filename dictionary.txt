@@ -1,0 +1,24 @@
+# Custom Dictionary Words (used by cspell)
+
+accum
+bifunctor
+chsh
+concat
+delim
+dotfiles
+foldl
+foldr
+freqs
+keybase
+mempty
+nixpkgs
+nocache
+scanl
+scanr
+strs
+stylesheet
+signup
+noflicker
+optimizely
+uncurry
+unwords

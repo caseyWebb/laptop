@@ -1,23 +1,4 @@
-function launchOrFocus(app)
-    return function()
-        hs.application.launchOrFocus(app)
-    end
-end
-
-function toggleApp(app)
-    return function()
-        local app = hs.application.get(app)
-        if app then
-            if app:isFrontmost() then
-                app:hide()
-            else
-                app:activate()
-            end
-        else
-            hs.application.launchOrFocus(app)
-        end
-    end
-end
+local mod = ({'ctrl', 'cmd'})
 
 local globalApps = {
     M = "Mail",
@@ -27,20 +8,44 @@ local globalApps = {
     D = "Discord"
 }
 
--- @TODO find a way to make these launch new windows instead of focusing existing ones
--- tiledApps = {
---     F = "Firefox",
---     P = "1Password 7",
---     [";"] = "Visual Studio Code",
---     ["return"] = "Alacritty"
--- }
+function launchOrFocus(app)
+    return function()
+        hs.application.launchOrFocus(app)
+    end
+end
 
-local mod = ({'ctrl', 'cmd'})
+function toggleApp(appName)
+    return function()
+        local app = hs.application.get(appName)
+        if app then
+            if app:isFrontmost() then
+                app:hide()
+            else
+                hideOthers(appName)
+                local windows = app:allWindows()
+                for i, window in ipairs(windows) do
+                    window:unminimize()
+                    window:focus()
+                end
+            end
+        else
+            hideOthers(appName)
+            hs.application.launchOrFocus(appName)
+        end
+    end
+end
+
+function hideOthers(activeAppName)
+    for k, appName in pairs(globalApps) do
+        if appName ~= activeAppName then
+            local app = hs.application.get(appName)
+            if app then
+                app:hide()
+            end
+        end
+    end
+end
 
 for k, v in pairs(globalApps) do
     hs.hotkey.bind(mod, k, toggleApp(v))
 end
-
--- for k, v in pairs(tiledApps) do
---     hs.hotkey.bind(mod, k, launchOrFocus(v))
--- end

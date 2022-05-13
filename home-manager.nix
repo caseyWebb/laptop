@@ -14,6 +14,9 @@
       pkgs.git-lfs
       pkgs.cachix
       pkgs.gnupg
+      pkgs.pass
+      pkgs.tealdeer
+      pkgs.tig
     ];
 
   home.sessionPath = [
@@ -26,6 +29,10 @@
       source = ~/.nixpkgs/hammerspoon;
       target = ".hammerspoon";
       onChange = "open -g hammerspoon://reload_configuration";
+    };
+    karabiner = {
+      source = ~/.nixpkgs/karabiner/karabiner.json;
+      target = ".config/karabiner/karabiner.json";
     };
   };
 

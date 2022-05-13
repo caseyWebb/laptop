@@ -2,21 +2,28 @@
   enable = true;
   autoUpdate = true;
   cleanup = "zap";
+  brews = [
+    "mydumper"
+  ];
   casks = [
     "1password"
     "amethyst"
     "beekeeper-studio"
-    "chromium"
+    "brave-browser"
     "discord"
     "firefox"
     "hammerspoon"
+    "karabiner-elements"
     "linear-linear"
+    "mos"
     "slack"
     "zoom"
     "visual-studio-code"
   ];
   masApps = {
     Tailscale = 1475387142;
+    Amphetamine = 937984704;
+    Meeter = 1510445899;
   };
   extraConfig =
     ''

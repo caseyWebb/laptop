@@ -5,7 +5,6 @@
 
   environment.variables = {
     EDITOR = "vim";
-    SHELL = "/run/current-system/sw/bin/fish";
   };
 
   environment.shells = [ pkgs.fish ];
@@ -19,9 +18,23 @@
       pkgs.nixpkgs-fmt
     ];
 
+  environment.etc = {
+    hosts = {
+      enable = true;
+      text =
+        ''
+          127.0.0.1       localhost
+          255.255.255.255 broadcasthost
+          ::1             localhost
+          127.0.0.1       dev.noredink.com
+        '';
+    };
+  };
+
   users.users.casey = {
     name = "casey";
     home = "/Users/casey";
+    shell = pkgs.fish;
   };
 
   home-manager.users.casey = import ./home-manager.nix;
