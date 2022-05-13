@@ -46,6 +46,7 @@
   fonts.fontDir.enable = true;
   fonts.fonts = [
     pkgs.fira-code
+    pkgs.nerdfonts
   ];
 
   # Auto upgrade nix package and the daemon service
