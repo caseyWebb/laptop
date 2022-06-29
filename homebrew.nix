@@ -13,6 +13,7 @@
     "discord"
     "firefox"
     "hammerspoon"
+    "pocket-casts"
     "karabiner-elements"
     "linear-linear"
     "mos"
