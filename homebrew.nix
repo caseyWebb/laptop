@@ -25,6 +25,7 @@
     Tailscale = 1475387142;
     Amphetamine = 937984704;
     Meeter = 1510445899;
+    LimeChat = 414030210;
   };
   extraConfig =
     ''
