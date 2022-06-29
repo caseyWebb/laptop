@@ -21,4 +21,14 @@ signup
 noflicker
 optimizely
 uncurry
+haml
 unwords
+customerio
+mixpanel
+pardot
+direnv
+segmentio
+gitpkg
+preload
+javascript
+javascripts
