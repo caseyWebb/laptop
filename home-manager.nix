@@ -22,6 +22,7 @@
       pkgs.cargo
       pkgs.nodejs
       pkgs.python310Packages.pip
+      pkgs.difftastic
     ];
 
   home.sessionPath = [
