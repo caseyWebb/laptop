@@ -16,6 +16,7 @@
       pkgs.zsh
       pkgs.git
       pkgs.nixpkgs-fmt
+      # pkgs.qmk Not supported on M1 yet, installed via brew
     ];
 
   environment.etc = {
@@ -47,6 +48,8 @@
   fonts.fonts = [
     pkgs.fira-code
     pkgs.nerdfonts
+    pkgs.google-fonts
+    pkgs.font-awesome
   ];
 
   # Auto upgrade nix package and the daemon service

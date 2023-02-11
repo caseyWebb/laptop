@@ -1,6 +1,7 @@
 { pkgs, lib, ... }: {
   home.username = "casey";
   home.homeDirectory = "/Users/casey";
+  home.stateVersion = "22.05";
 
   home.packages =
     [
@@ -17,6 +18,10 @@
       pkgs.pass
       pkgs.tealdeer
       pkgs.tig
+      pkgs.neovim
+      pkgs.cargo
+      pkgs.nodejs
+      pkgs.python310Packages.pip
     ];
 
   home.sessionPath = [
@@ -37,6 +42,7 @@
   };
 
   programs.alacritty = import ./alacritty.nix;
+  programs.kitty = import ./kitty.nix;
   programs.fish = import ./fish.nix { pkgs = pkgs; };
   programs.starship.enable = true;
   programs.direnv = {

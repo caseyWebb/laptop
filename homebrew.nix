@@ -4,6 +4,7 @@
   cleanup = "zap";
   brews = [
     "mydumper"
+    "qmk/qmk/qmk"
   ];
   casks = [
     "1password"
@@ -14,18 +15,19 @@
     "firefox"
     "hammerspoon"
     "pocket-casts"
-    "karabiner-elements"
+    "kitty"
     "linear-linear"
-    "mos"
     "slack"
+    "signal"
     "zoom"
     "visual-studio-code"
+    "figma"
   ];
   masApps = {
     Tailscale = 1475387142;
     Amphetamine = 937984704;
     Meeter = 1510445899;
-    LimeChat = 414030210;
+    # LimeChat = 414030210;
   };
   extraConfig =
     ''

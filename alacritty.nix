@@ -14,7 +14,7 @@
           family = "FiraMono Nerd Font";
           style = "Italic";
         };
-        size = 12.0;
+        size = 18.0;
       };
 
     colors = {

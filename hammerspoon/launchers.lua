@@ -1,8 +1,8 @@
-local mod = ({'ctrl', 'cmd'})
+local mod = ({'ctrl', 'cmd', 'alt', 'shift'})
 
 local globalApps = {
-    M = "Mail",
-    C = "Calendar",
+    -- M = "Mail",
+    -- C = "Calendar",
     L = "Linear",
     S = "Slack",
     D = "Discord"
@@ -49,3 +49,6 @@ end
 for k, v in pairs(globalApps) do
     hs.hotkey.bind(mod, k, toggleApp(v))
 end
+
+hs.hotkey.bind(mod, 'C', launchOrFocus('Visual Studio Code'))
+hs.hotkey.bind(mod, 'F', launchOrFocus('Firefox'))
