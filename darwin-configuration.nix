@@ -16,7 +16,7 @@
       pkgs.zsh
       pkgs.git
       pkgs.nixpkgs-fmt
-      # pkgs.qmk Not supported on M1 yet, installed via brew
+      # pkgs.qmk
     ];
 
   environment.etc = {
@@ -27,7 +27,6 @@
           127.0.0.1       localhost
           255.255.255.255 broadcasthost
           ::1             localhost
-          127.0.0.1       dev.noredink.com
         '';
     };
   };
@@ -44,8 +43,7 @@
 
   homebrew = import ./homebrew.nix;
 
-  fonts.fontDir.enable = true;
-  fonts.fonts = [
+  fonts.packages = [
     pkgs.fira-code
     pkgs.nerdfonts
     pkgs.google-fonts
@@ -68,7 +66,7 @@
     ''
       keep-outputs = true
       extra-platforms = x86_64-darwin
-      trusted-users = root casey 
+      trusted-users = root casey
       extra-experimental-features = nix-command
     '';
 }
